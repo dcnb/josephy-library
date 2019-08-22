@@ -4,7 +4,7 @@
 # title of site appears in banner
 title: CollectionBuilder-GH 
 # choose metadata: this is the name of the csv file in your _data directory that describes the objects in your collection
-metadata: collection-metadata # 
+metadata: josephy-catalog # 
 # repository is the github repository's full url: 
 # replace CollectionBuilder with your GitHub username and replace 'collectionbuilder-gh' with the name of your repository
 repository: https://github.com/CollectionBuilder/collectionbuilder-gh
@@ -61,8 +61,8 @@ longitude: -117.014185 #to determine center of map
 zoom-level: 7 # zoom level for map 
 
 # SUBJECT PAGE
-subjects-off: false # true / false, turns off subject generation to lower dev build time (then page doesn't work!)
-subject-min: 1 # min size for subject cloud, too many terms = slow load time!
+subjects-off: true # true / false, turns off subject generation to lower dev build time (then page doesn't work!)
+subject-min: 10 # min size for subject cloud, too many terms = slow load time!
 stopwords: # boxers;boxing;boxer # set of subjects separated by ;, e.g. boxers;boxing
 
 # TIMELINE PAGE
@@ -71,7 +71,7 @@ year-nav-increment: 5 # set increments when auto gen nav years
 
 # ITEM PAGE
 # see _data/metadata-config.csv to define the metadata fields that will display.
-browse-buttons: true # true / false, adds previous/next arrows to items, but doubles build time
+browse-buttons: false # true / false, adds previous/next arrows to items, but doubles build time
 
 # BOOTSWATCH THEMES
 # You can replace the current plain Bootstrap theme with a Bootswatch (https://github.com/thomaspark/bootswatch) option
