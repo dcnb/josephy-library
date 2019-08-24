@@ -1,5 +1,9 @@
 field,display-name-or-btn
 date,Date
-description,
+contribution,Contribution Type
+format-original,btn
+publication,Publication
+publisher,Publisher
 subject,btn
-place,btn
+
+
