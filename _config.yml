@@ -6,14 +6,14 @@
 
 
 # creator contact email for meta tags
-email: ewilliamson@uidaho.edu
+email: devinbecker@gmail.com
 # collection project date, when did you publish this
 collection-date: "2019"
 
 # url is your gh-pages base, following the pattern: username.github.io
-url: https://collectionbuilder.github.io
+url: https://dcnb.github.io
 # baseurl is your github repository's name prefixed with a /
-baseurl: /collectionbuilder-gh
+baseurl: /josephy-library
 
 
 # google services [optional!]
